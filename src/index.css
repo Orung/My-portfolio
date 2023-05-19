@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+body {
+    background-color: #060816;
+    overflow-x: hidden;
+   
+}
+.quote {
+  font-family: 'Jacques Francois Shadow', cursive;
+}

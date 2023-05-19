@@ -13,15 +13,14 @@ const Overview = () => {
                     >
                         Overview.
                     </h2>
-                    <p className="mt-4 text-[#aaa5c3] text-[17px] max-w-3xl leading-[30px]">
-                        I&apos;m a skilled Full Stack software developer with experience in
-                        TypeScript and JavaScript, and expertise in frameworks like React,
-                        Node.js, MongoDB and Express.js. I&apos;m a quick learner and collaborate
+                    <p className="mt-4 text-[#aaa5c3] text-[17px] max-w-3xl leading-[30px] text-justify md:text-lef">
+                        I&apos;m a skilled Full Stack software developer with experience in JavaScript, and expertise in frameworks like VueJs, React,
+                        Node.js, mySQL and Express.js. I&apos;m a quick learner and collaborate
                         closely with clients to create efficient, scalable, and user-friendly
                         solutions that solve real-world problems. Let&apos;s work together to bring
                         your ideas to life!
                     </p>
-                    <div className="flex flex-wrap gap-[5rem] mt-[4rem]">
+                    <div className="flex flex-wrap gap-[5rem] mt-[4rem] md:justify-start justify-center">
                         <div className="bg-tertiary rounded-[20px]   py-1 px-1  max-w-sm bg-gradient-to-t from-rose-400 via-fuchsia-500 to-indigo-500">
                             <div className='bg-[#0B1138] flex justify-evenly rounded-[20px] items-center  py-5 px-12  min-h-[280px] flex-col'>
                                 <svg width="52" height="39" viewBox="0 0 52 39" fill="none" xmlns="http://www.w3.org/2000/svg">

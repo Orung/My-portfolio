@@ -53,7 +53,7 @@ const Testimonials = () => {
 
     return (
         <div className='container m-auto'>
-            <div className='bg-[#151030] rounded-2xl p-[2rem] md:p-[4rem]'>
+            <div className='bg-[#151030] rounded-2xl p-[2rem] md:p-[4rem] mt-[5rem] md:mt-[10rem]'>
                 <h4 className="sm:text-[18px] text-[14px] text-[#aaa5c3] uppercase tracking-wider">
                     WHAT OTHERS SAY
                 </h4>

@@ -7,10 +7,10 @@ function App() {
 
 
   const navigation = [
-    { name: 'Dashboard', href: '#', current: true },
+    { name: 'Home', href: '/', current: true },
     { name: 'About', href: '#about', current: false },
-    { name: 'Work', href: '#', current: false },
-    { name: 'Contact', href: '#', current: false },
+    { name: 'Work', href: '#work', current: false },
+    { name: 'Contact', href: '#contact', current: false },
   ]
 
   const [isContentVisible, setContentVisible] = useState(true);
@@ -41,7 +41,7 @@ function App() {
                 {
                   navigation.map((item) => (
                     <li className="nav-item mb-[3rem] md:mb-0" key={item.name}>
-                      <a className="nav-link" aria-current="page" href={item.href}>{item.name}</a>
+                      <a className="nav-link font-bold" aria-current="page" href={item.href}>{item.name}</a>
                     </li>
                   ))
                 }
@@ -59,8 +59,8 @@ function App() {
             </svg>
           </div>
           <div className='button hidden md:block'>
-            <a href="/" className="bg-[#F37A23] hover:bg-[#ef8a41] text-white font-bold py-2 px-4 rounded">
-              Button
+            <a href="#contact" className="bg-[#F37A23] hover:bg-[#ef8a41] text-white font-bold py-2 px-4 rounded">
+              Hire Me
             </a>
           </div>
         </div>

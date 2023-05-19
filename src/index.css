@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
 
 * {
   scroll-behavior: smooth;
